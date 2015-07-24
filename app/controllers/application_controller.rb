@@ -2,7 +2,6 @@ require "require_all"
 require 'sinatra'
 require 'sinatra/activerecord'
 require 'sinatra/flash'
-require 'rack/flash3'
 require 'sinatra/redirect_with_flash'
 require 'pry'
 
