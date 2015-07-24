@@ -1,0 +1,44 @@
+/* FOR THE INDEX PAGE */
+h1{
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  color: #33b5e5;
+}
+
+h2{
+  position: relative;
+  left: 250px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
+
+p{
+  position: relative;
+  left: 0px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+}
+
+input[type="radio"]{
+cursor: pointer;
+-webkit-appearance: none;
+appearance: none;
+background: #34495E;
+border-radius: 1px;
+box-sizing: border-box;
+box-sizing: content-box ;
+width: 30px;
+height: 30px;
+border-width: 0;
+transition: all .3s linear;
+left: 60%;
+top:60%;
+}
+input[type="radio"]:checked{
+  background-color: #33b5e5;
+}
+input[type="radio"]:focus{
+  outline: 0 none;
+  box-shadow: none;
+}
